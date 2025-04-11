@@ -6,11 +6,12 @@ import { Header, Boton, ItemListContainer, CartWidget } from './components/carga
 
 
 function App() {
-  
+  let texto = "Hola Coders";
+
   return (
     <>
     <Header/>
-    <ItemListContainer/>
+    <ItemListContainer greeting={texto} />
     </>
   )
 }
