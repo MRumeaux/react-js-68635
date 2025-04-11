@@ -3,7 +3,7 @@ import ItemList from './ItemList'
 
 let greeting = "Hola Coders";
 
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = ({texto}) => {
     const [categoria, setCategoria] = useState("");
     const productos = [
         {
@@ -38,7 +38,7 @@ const ItemListContainer = ({greeting}) => {
         }
     ]
     return (
-        <h1>{greeting}</h1>
+        <h1>{texto}</h1>
     )
 }
 

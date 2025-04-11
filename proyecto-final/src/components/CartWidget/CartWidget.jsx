@@ -15,7 +15,7 @@ export const CartWidget = () => {
 
     return (
         <div>
-            <h1>🛒</h1>
+            <h1>🛒 <span>0</span> </h1>
         </div>
     )
 }
