@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Nav, Navbar} from 'react-bootstrap';
+import { CartWidget } from '../cargarImports';
 
 const NavSite = () => {
     return (
@@ -15,6 +16,7 @@ const NavSite = () => {
                         <Nav.Link href="#tips">Tips</Nav.Link>
                     </Nav>
                 </Container>
+                <CartWidget/>
             </Navbar>
         </>
     );
