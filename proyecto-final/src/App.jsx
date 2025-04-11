@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <Header/>
-    <CartWidget/>
+    <CartWidget count = "0"/>
     <ItemListContainer/>
     </>
   )

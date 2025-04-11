@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import ItemList from './ItemList'
 
-const ItemListContainer = () => {
+let greeting = "Hola Coders";
+
+const ItemListContainer = ({greeting}) => {
     const [categoria, setCategoria] = useState("");
     const productos = [
         {
@@ -36,7 +38,7 @@ const ItemListContainer = () => {
         }
     ]
     return (
-        <ItemList productos={productos}/>
+        <h1>{greeting}</h1>
     )
 }
 
