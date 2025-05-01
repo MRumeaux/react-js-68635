@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "nombre_producto": "Gel de Limpieza Purificante",
+        "marca": "Lidherma",
+        "categoria": "facial",
+        "descripcion": "Gel facial para limpieza profunda, ideal para pieles mixtas a grasas.",
+        "precio": 5200,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Gel+Limpieza+Lidherma",
+            "alt": "Gel de Limpieza Purificante Lidherma"
+        }
+    },
+    {
+        "id": 2,
+        "nombre_producto": "Emulsión Hidratante Intensiva",
+        "marca": "Lidherma",
+        "categoria": "facial",
+        "descripcion": "Emulsión hidratante de rápida absorción con efecto calmante.",
+        "precio": 6300,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Emulsion+Hidratante+Lidherma",
+            "alt": "Emulsión Hidratante Intensiva Lidherma"
+        }
+    },
+    {
+        "id": 3,
+        "nombre_producto": "Crema Corporal Ultra Humectante",
+        "marca": "Lidherma",
+        "categoria": "corporal",
+        "descripcion": "Crema corporal con efecto hidratante prolongado, apta para todo tipo de piel.",
+        "precio": 4800,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Crema+Corporal+Lidherma",
+            "alt": "Crema Corporal Ultra Humectante Lidherma"
+        }
+    },
+    {
+        "id": 4,
+        "nombre_producto": "Sérum con Vitamina C",
+        "marca": "Lidherma",
+        "categoria": "facial",
+        "descripcion": "Sérum iluminador con Vitamina C pura para un rostro más radiante.",
+        "precio": 7500,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Serum+Vitamina+C+Lidherma",
+            "alt": "Sérum con Vitamina C Lidherma"
+        }
+    },
+    {
+        "id": 5,
+        "nombre_producto": "Crema Antiedad Día y Noche",
+        "marca": "Lidherma",
+        "categoria": "facial",
+        "descripcion": "Tratamiento antiedad para uso diario, ayuda a reducir arrugas.",
+        "precio": 8700,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Crema+Antiedad+Lidherma",
+            "alt": "Crema Antiedad Día y Noche Lidherma"
+        }
+    },
+    {
+        "id": 6,
+        "nombre_producto": "Mousse de Limpieza con AHA",
+        "marca": "Idraet",
+        "categoria": "facial",
+        "descripcion": "Mousse facial con alfa hidroxiácidos, promueve renovación celular.",
+        "precio": 5100,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Mousse+Limpieza+Idraet",
+            "alt": "Mousse de Limpieza con AHA Idraet"
+        }
+    },
+    {
+        "id": 7,
+        "nombre_producto": "Body Lotion con Colágeno",
+        "marca": "Idraet",
+        "categoria": "corporal",
+        "descripcion": "Loción corporal reafirmante con colágeno y elastina.",
+        "precio": 5600,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Body+Lotion+Idraet",
+            "alt": "Body Lotion con Colágeno Idraet"
+        }
+    },
+    {
+        "id": 8,
+        "nombre_producto": "Sérum Hidratante con Ácido Hialurónico",
+        "marca": "Idraet",
+        "categoria": "facial",
+        "descripcion": "Sérum que proporciona hidratación profunda gracias al ácido hialurónico.",
+        "precio": 7900,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Serum+Hialuronico+Idraet",
+            "alt": "Sérum Hidratante con Ácido Hialurónico Idraet"
+        }
+    },
+    {
+        "id": 9,
+        "nombre_producto": "Crema Remodelante Corporal",
+        "marca": "Idraet",
+        "categoria": "corporal",
+        "descripcion": "Crema corporal que ayuda a mejorar la textura y firmeza de la piel.",
+        "precio": 7200,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Crema+Remodelante+Idraet",
+            "alt": "Crema Remodelante Corporal Idraet"
+        }
+    },
+    {
+        "id": 10,
+        "nombre_producto": "Contorno de Ojos Antiage",
+        "marca": "Idraet",
+        "categoria": "facial",
+        "descripcion": "Tratamiento para el contorno de ojos que reduce líneas finas y ojeras.",
+        "precio": 6200,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Contorno+Ojos+Idraet",
+            "alt": "Contorno de Ojos Antiage Idraet"
+        }
+    },
+    {
+        "id": 11,
+        "nombre_producto": "Espuma de Limpieza Suave",
+        "marca": "Exel",
+        "categoria": "facial",
+        "descripcion": "Espuma limpiadora para piel sensible, libre de sulfatos.",
+        "precio": 5000,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Espuma+Limpieza+Exel",
+            "alt": "Espuma de Limpieza Suave Exel"
+        }
+    },
+    {
+        "id": 12,
+        "nombre_producto": "Gel Reafirmante Corporal",
+        "marca": "Exel",
+        "categoria": "corporal",
+        "descripcion": "Gel de uso corporal que mejora la firmeza y elasticidad de la piel.",
+        "precio": 6700,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Gel+Reafirmante+Exel",
+            "alt": "Gel Reafirmante Corporal Exel"
+        }
+    },
+    {
+        "id": 13,
+        "nombre_producto": "Crema Facial con Ácido Glicólico",
+        "marca": "Exel",
+        "categoria": "facial",
+        "descripcion": "Renovador celular que mejora la textura de la piel y reduce manchas.",
+        "precio": 7400,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Crema+Glicolico+Exel",
+            "alt": "Crema Facial con Ácido Glicólico Exel"
+        }
+    },
+    {
+        "id": 14,
+        "nombre_producto": "Loción Corporal Hidratante",
+        "marca": "Exel",
+        "categoria": "corporal",
+        "descripcion": "Loción ligera y nutritiva ideal para pieles secas.",
+        "precio": 4900,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Locion+Corporal+Exel",
+            "alt": "Loción Corporal Hidratante Exel"
+        }
+    },
+    {
+        "id": 15,
+        "nombre_producto": "Sérum Regenerador Nocturno",
+        "marca": "Exel",
+        "categoria": "facial",
+        "descripcion": "Sérum nocturno que regenera y repara la piel durante el descanso.",
+        "precio": 8100,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Serum+Nocturno+Exel",
+            "alt": "Sérum Regenerador Nocturno Exel"
+        }
+    },
+    {
+        "id": 16,
+        "nombre_producto": "Exfoliante Corporal Suave",
+        "marca": "Lidherma",
+        "categoria": "corporal",
+        "descripcion": "Exfoliante corporal con micropartículas naturales que renuevan la piel.",
+        "precio": 5400,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Exfoliante+Lidherma",
+            "alt": "Exfoliante Corporal Suave Lidherma"
+        }
+    },
+    {
+        "id": 17,
+        "nombre_producto": "Máscara Facial de Arcilla",
+        "marca": "Idraet",
+        "categoria": "facial",
+        "descripcion": "Máscara purificante que ayuda a remover impurezas y controlar oleosidad.",
+        "precio": 6200,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Mascara+Arcilla+Idraet",
+            "alt": "Máscara Facial de Arcilla Idraet"
+        }
+    },
+    {
+        "id": 18,
+        "nombre_producto": "Crema para Manos y Codos",
+        "marca": "Exel",
+        "categoria": "corporal",
+        "descripcion": "Crema reparadora intensiva para zonas resecas como manos y codos.",
+        "precio": 4600,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Crema+Manos+Exel",
+            "alt": "Crema para Manos y Codos Exel"
+        }
+    },
+    {
+        "id": 19,
+        "nombre_producto": "Bruma Facial Hidratante",
+        "marca": "Lidherma",
+        "categoria": "facial",
+        "descripcion": "Bruma refrescante que hidrata al instante y revitaliza el rostro.",
+        "precio": 4300,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Bruma+Facial+Lidherma",
+            "alt": "Bruma Facial Hidratante Lidherma"
+        }
+    },
+    {
+        "id": 20,
+        "nombre_producto": "Gel Corporal Crioterápico",
+        "marca": "Idraet",
+        "categoria": "corporal",
+        "descripcion": "Gel refrescante con efecto frío, ideal para masajes reductores.",
+        "precio": 6900,
+        "img": {
+            "src": "https://via.placeholder.com/200?text=Gel+Crioterapia+Idraet",
+            "alt": "Gel Corporal Crioterápico Idraet"
+        }
+    }
+]
