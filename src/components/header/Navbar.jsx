@@ -1,17 +1,19 @@
 import React from 'react';
 import { CartWidget } from '../cargarImports';
+import { Link } from 'react-router-dom';
 
 const NavSite = () => {
     return (
         <>
             <div className="nav-contenedor">
                 <nav className="navbar">
-                    <a className="nav-logo" href="#"><h1>Ama tu piel</h1></a>
+                    <Link className="nav-logo" to="/"><h1>Ama tu piel</h1></Link>
                     <ul>
-                        <li><a href="#corporal">Corporal</a></li>
-                        <li><a href="#marcas">Marcas</a></li>
-                        <li><a href="#tips">Tips</a></li>
-                        <li><a href="facial">Facial</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/corporal">Corporal</Link></li>
+                        <li><Link to="/marcas">Marcas</Link></li>
+                        <li><Link to="/tips">Tips</Link></li>
+                        <li><Link to="/facial">Facial</Link></li>
                     </ul>
                     <CartWidget/>
                 </nav>
@@ -19,5 +21,4 @@ const NavSite = () => {
         </>
     );
 };
-
 export default NavSite;

@@ -1,6 +1,5 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
-import { Boton } from '../cargarImports';
+import { Link } from 'react-router-dom';
 
 const Item = ({id, titulo, img, precio}) => {
     return (
@@ -8,7 +7,7 @@ const Item = ({id, titulo, img, precio}) => {
             <img src={img} alt={titulo} />
             <h2>{titulo}</h2>
             <p>${precio}</p>
-            <button onClick={() => { console.log("ID PROD", id) }}>Hacé click para ver más</button>
+            <Link to={`/item/${id}`}>Hacé click para ver más</Link>
         </div>
     );
 };

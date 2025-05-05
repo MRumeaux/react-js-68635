@@ -1,18 +1,19 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ItemList from './ItemList'
-import data from '../../data/datos.json'
+import { llamarProductos } from './llamarProductos';
 
 
 const ItemListContainer = ({greeting}) => {
-    const [categoria, setCategoria] = useState("");
+    
+    const [productos, setProductos] = useState([]);
 
-    console.log(data);
+    useEffect(() => {
+        llamarProductos()
+            .then((res) => {
+                setProductos(res)
+            })
+    },[])
 
-    const llamarProductos = () => {
-        return new Promise ((res, rej) => {
-            resolve()
-        })
-    }
     return (
         <div>
         <ItemList productos={productos}/>
