@@ -1,23 +1,19 @@
 import React from 'react';
-import {Container, Nav, Navbar} from 'react-bootstrap';
 import { CartWidget } from '../cargarImports';
 
 const NavSite = () => {
     return (
         <>
-            <Navbar bg="dark" data-bs-theme="dark">
-                <Container>
-                    <Navbar.Brand href="#home">Ama tu piel</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#facial">Facial</Nav.Link>
-                        <Nav.Link href="#corporal">Corporal</Nav.Link>
-                        <Nav.Link href="#marcas">Marcas</Nav.Link>
-                        <Nav.Link href="#tips">Tips</Nav.Link>
-                    </Nav>
-                </Container>
+            <nav className="nav-contenedor">
+                <a className="nav-logo" href="#"><h1>Ama tu piel</h1></a>
+                <ul>
+                    <li><a className="navbar" href="#corporal">Corporal</a></li>
+                    <li><a className="navbar" href="#marcas">Marcas</a></li>
+                    <li><a className="navbar" href="#tips">Tips</a></li>
+                    <li><a className="navbar" href="facial">Facial</a></li>
+                </ul>
                 <CartWidget/>
-            </Navbar>
+            </nav>
         </>
     );
 };
