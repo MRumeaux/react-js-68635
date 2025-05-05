@@ -8,7 +8,6 @@ const ItemList = ({productos}) => {
                                     key={e.id} 
                                     titulo={e.titulo} 
                                     img={e.img}
-                                    descripcion={e.descripcion} 
                                     precio={e.precio}
                                     id={e.id}
                                     />
