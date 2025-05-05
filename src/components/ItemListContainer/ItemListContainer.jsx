@@ -13,14 +13,8 @@ const ItemListContainer = () => {
     useEffect(() => {
         llamarProductos()
             .then((res) => {
-                if(categoria){
-                    setProductos(res.filter((producto) => producto.categoria === categoria));
-                    setTituloCategoria(categoria);
-                }
-                else{
-                    setProductos(res);
-                    setTituloCategoria("Productos");
-                }
+                setProductos(categoria ? res.filter((producto) => producto.categoria === categoria) : res);
+                setTituloCategoria(categoria ? categoria : "Productos");
             })
     },[categoria])
 
