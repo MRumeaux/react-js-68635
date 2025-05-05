@@ -1,18 +1,20 @@
 import { useEffect, useState } from "react"
 import { llamarProdsPorId } from "./llamarProductos";
 import ItemDetail from "./ItemDetail";
+import { useParams } from "react-router-dom";
 
 
 const ItemDetailContainer = ({productoId}) => {
 
     const [producto, setProducto] = useState(null);
+    const id = useParams().id;
 
     useEffect(() => {
-        llamarProdsPorId(productoId)
+        llamarProdsPorId(Number(id))
             .then((res) => {
                 setProducto(res);
             })
-    }, [productoId])
+    }, [id])
     
 
     return (
