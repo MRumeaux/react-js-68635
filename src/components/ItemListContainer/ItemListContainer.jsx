@@ -4,7 +4,7 @@ import { llamarProductos } from './llamarProductos';
 import { useParams } from 'react-router-dom';
 
 
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = () => {
     
     const [productos, setProductos] = useState([]);
     const categoria = useParams().categoria;
